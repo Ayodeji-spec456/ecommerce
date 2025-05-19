@@ -1,0 +1,404 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main {
+    padding: 20px;
+    display: flex;
+    gap: 200px;
+}
+.fa-cart-plus {
+    font-size: 50px;
+    position: absolute;
+    color: red;
+}
+.fa-magnifying-glass-plus {
+    border: 1px solid black;
+    width: 40px;
+    height: 41px;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+}
+.bag {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 20px;
+    color: white;
+    background-color: rgb(208, 30, 30);
+}
+.bag:hover {
+    background-color: rgb(163, 2, 2);
+}
+.lag {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 20px;
+    color: white;
+    background-color: rgb(208, 30, 30);
+}
+.lag:hover {
+    background-color: rgb(163, 2, 2);
+}
+.log {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(208, 30, 30);
+}
+.log:hover {
+    background-color: rgb(163, 2, 2);
+}
+.pad {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(208, 30, 30);
+}
+.pad:hover {
+    background-color: rgb(163, 2, 2);
+}
+.line {
+    color: red;
+    width: 350px;
+}
+.side {
+    line-height: 40px;
+    margin-left: 20px;
+}
+.map {
+    color: red;
+}
+.me {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+#meme {
+    width: 350px;
+}
+.fa-basket-shopping {
+    font-size: xx-large;
+    color: red;
+}
+.nav {
+    background-color: red;
+    margin-top: -20px;
+    
+}
+#mop {
+    color: white;
+}
+.mat {
+    margin-top: 10px;
+}
+.moo {
+    position: absolute;
+    margin-top: 30px;
+}
+.ben {
+    margin-left: 56px;
+}
+.man {
+    border: 1px solid black;
+    height: 40px;
+    width: 300px;
+}
+.mess {
+    line-height: 40px;
+}
+.every {
+    display: flex;
+}
+#pen {
+    width: 350px;
+    height: 230px;
+    margin-top: 20px;
+}
+.hell {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#mark {
+    margin-left: 30px;
+}
+.rice {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.btn1 {
+    border: 1px solid  rgb(208, 30, 30);
+    background-color: rgb(208, 30, 30);
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.woo {
+    margin-left: 20px;
+}
+.btn2 {
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: yellow;
+    width: 30px;
+    height: 15px;
+    gap: 10px;
+}
+.btn3 {
+    border: 1px solid rgb(60, 95, 190);
+    border-radius: 5px;
+    background-color: rgb(60, 95, 190);
+    width: 30px;
+    height: 15px;
+}
+.btn4 {
+    border: 1px solid rgb(40, 144, 40);
+    border-radius: 5px;
+    background-color: rgb(40, 144, 40);
+    width: 30px;
+    height: 15px;
+    gap: 10px;
+}
+.btn5 {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    width: 30px;
+    height: 15px;
+}
+.btn6 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+    width: 30px;
+    height: 15px;
+}
+.btn7 {
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    background-color: skyblue;
+    width: 30px;
+    height: 15px;
+}
+.btn8 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    width: 30px;
+    height: 15px;
+}
+.btn9 {
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: purple;
+    width: 30px;
+    height: 15px;
+}
+.btn10 {
+    border: 1px solid brown;
+    border-radius: 5px;
+    background-color: brown;
+    width: 30px;
+    height: 15px;
+}
+.btn11 {
+    border: 1px solid gold;
+    border-radius: 5px;
+    background-color: gold;
+    width: 30px;
+    height: 15px;
+}
+.btn12 {
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+    width: 30px;
+    height: 15px;
+}
+.btn13 {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: green;
+    width: 30px;
+    height: 15px;
+}
+.foot {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 168px;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.new {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.third {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fourth {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#ice {
+    width: 270px;
+    height: 200px;
+    gap: 40px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.btn100 {
+    border: 1px solid  rgb(208, 30, 30);
+    background-color: rgb(208, 30, 30);
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.mash {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.tab {
+    padding-left: 10px;
+}
+.lamp {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 168px;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.moff {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 1516px;
+    height: 30px;
+    position: absolute;
+}
+.banner {
+    background-color: red;
+    display: flex;
+    height: 50px;
+    width: 1528px;
+    position: absolute;
+}
+#rose {
+    color: white;
+    position: relative;
+    margin-left: 800px;
+    margin-top: 5px;
+}
+.box {
+    border: 1px solid black;
+    width: 225px;
+    border-radius: 10px;
+    position: absolute;
+    height: 30px;
+    color: white;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.head {
+    margin-left: 500px;
+}
+.lime {
+    width: 1510px;
+    margin-left: 10px;
+}
+.mom {
+    display: flex;
+    margin-left: 10px;
+}
+.dad {
+    margin-left: 460px;
+}
+.lie {
+    margin-left: 500px;
+}
+.mate {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    display: flex;
+    gap: 200px;
+    width: 1510px;
+}
+.mate2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.btn0 {
+    border: 1px solid  rgb(208, 30, 30);
+    background-color: rgb(208, 30, 30);
+    padding: 8px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.tat {
+    border: 1px solid black;
+    width: 800px;
+    height: 40px;
+}
+.lore {
+    margin-left: 10px;
+}
+.paper {
+    display: flex;
+}
+.tapp {
+    margin-left: 30px;
+}
+.bold {
+    margin-right: 800px;
+}
