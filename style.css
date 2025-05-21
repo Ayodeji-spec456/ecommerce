@@ -94,7 +94,8 @@
 .nav {
     background-color: red;
     margin-top: -20px;
-    
+    position: sticky;
+    top: 0;
 }
 #mop {
     color: white;
@@ -317,16 +318,17 @@
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 10px;
-    width: 1516px;
+    width: 1500px;
     height: 30px;
     position: absolute;
+
 }
 .banner {
     background-color: red;
     display: flex;
     height: 50px;
-    width: 1528px;
-    position: absolute;
+    position: sticky;
+    top: 0;
 }
 #rose {
     color: white;
@@ -349,7 +351,7 @@
     margin-left: 500px;
 }
 .lime {
-    width: 1510px;
+    width: 1500px;
     margin-left: 10px;
 }
 .mom {
@@ -368,7 +370,7 @@
     color: white;
     display: flex;
     gap: 200px;
-    width: 1510px;
+    width: 1500px;
 }
 .mate2 {
     display: flex;
@@ -378,16 +380,16 @@
 .btn0 {
     border: 1px solid  rgb(208, 30, 30);
     background-color: rgb(208, 30, 30);
+    border-radius: 5px;
+    color: white;
     padding: 8px;
     margin-top: 20px;
-    color: white;
-    border-radius: 5px;
     margin-left: 120px;
     margin-bottom: 20px;
 }
 .tat {
     border: 1px solid black;
-    width: 800px;
+    width: 900px;
     height: 40px;
 }
 .lore {
@@ -401,4 +403,62 @@
 }
 .bold {
     margin-right: 800px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fa-lightbulb {
+    padding: 10px;
+    margin-left: 400px;
+}
+#style {
+    width: 1000px;
+}
+.cont {
+    margin-left: 250px;
+    border: 1px solid red;
+    width: 1002px;
+}
+.wave {
+    border: 1px solid  rgb(208, 30, 30);
+    background-color: rgb(208, 30, 30);
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    width: 100px;
+    margin-left: 10px;
+    padding: 8px;
+}
+.mut {
+    margin-left: 60px;
+}
+.wave2 {
+    width: 120px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.stord2 {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        padding-top: 10px;
+        color: black;
+}
+#card {
+    width: 140px;
+    height: 100px;
+    border-radius: 3px;
+}
+.stord {
+    margin-left: 10px;
+    background-color: rgb(234, 231, 225);
+    color: black;
+    display: flex;
+    gap: 200px;
+    height: 140px;
+    width: 1500px;
 }

@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .dark-mode {
+          background-color: rgb(12, 12, 23);
+          color: white;
+      }
+  </style>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+  <div class="white-mode">
     <div class="main">
         <i class="fa-solid fa-cart-plus"></i>
         <div class="ben">
@@ -25,12 +32,17 @@
             <i class="fa-solid fa-basket-shopping"></i>
         </div>
     </div>
+    </div>
 
     <nav class="nav">
         <a id="mop"class="nav-link active" aria-current="page" href="index.html">HOME</a>
         <a id="mop"class="nav-link" href="product.html">PRODUCTS</a>
         <a id="mop"class="nav-link" href="payment.html">PAYMENT</a>
         <a id="mop"class="nav-link" href="contact.html">CONTACT</a>
+        <div class="bg-dark-mode-white">
+          <i class="fa-solid fa-lightbulb"  onclick="document.body.classList.toggle('dark-mode')"></i>
+      </div>
+</nav>
       </nav>
       <div class="new">
         <h2><b>WEARS</b></h2>
@@ -39,31 +51,31 @@
         <div class="mash">
             <img id="ice" src="./image/cap-7278216__340.webp" alt="">
             <h5 class="tab"><b>Hat</b></h5>
-            <h5 class="tab"><b>#5,670</b></h5>
+            <h5 class="tab"><b>₦5,670</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/cool1.jpg" alt="">
             <h5 class="tab"><b>Hoodie Up and Down</b></h5>
-            <h5 class="tab"><b>#12,700</b></h5>
+            <h5 class="tab"><b>₦12,700</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/costume-2269372__340.jpeg" alt="">
             <h5 class="tab"><b>Custom</b></h5>
-            <h5 class="tab"><b>#2,200</b></h5>
+            <h5 class="tab"><b>₦2,200</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/cool2.jpg" alt="">
             <h5 class="tab"><b>Indian Kaftan</b></h5>
-            <h5 class="tab"><b>#20,000</b></h5>
+            <h5 class="tab"><b>₦20,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/pumps-2364722__340.webp" alt="">
             <h5 class="tab"><b>Lady's Shoe</b></h5>
-            <h5 class="tab"><b>#13,090</b></h5>
+            <h5 class="tab"><b>₦13,090</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
     </div>
@@ -74,31 +86,31 @@
         <div class="mash">
             <img id="ice" src="./image/chair5.jpeg" alt="">
             <h5 class="tab"><b>Complete Indoor Furniture</b></h5>
-            <h5 class="tab"><b>#105,700</b></h5>
+            <h5 class="tab"><b>₦105,700</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/chair4.jpeg" alt="">
             <h5 class="tab"><b>Fur Chair</b></h5>
-            <h5 class="tab"><b>#61,000</b></h5>
+            <h5 class="tab"><b>₦61,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/chair3.jpeg" alt="">
             <h5 class="tab"><b>Sofa</b></h5>
-            <h5 class="tab"><b>#23,050</b></h5>
+            <h5 class="tab"><b>₦23,050</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/chair2.jpeg" alt="">
             <h5 class="tab"><b>Insulated water bottle</b></h5>
-            <h5 class="tab"><b>#42,500</b></h5>
+            <h5 class="tab"><b>₦42,500</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/chair-4281511_960_720.webp" alt="">
             <h5 class="tab"><b>Executive Chair</b></h5>
-            <h5 class="tab"><b>#27,000</b></h5>
+            <h5 class="tab"><b>₦27,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
      </div>
@@ -109,31 +121,31 @@
         <div class="mash">
             <img id="ice" src="./image/samsung.webp" alt="">
             <h5 class="tab"><b>Samsung Phone</b></h5>
-            <h5 class="tab"><b>#87,000</b></h5>
+            <h5 class="tab"><b>₦87,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/ipone.webp" alt="">
             <h5 class="tab"><b>Iphone</b></h5>
-            <h5 class="tab"><b>#75,000</b></h5>
+            <h5 class="tab"><b>₦75,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/tab.webp" alt="">
             <h5 class="tab"><b>Tab</b></h5>
-            <h5 class="tab"><b>#135,000</b></h5>
+            <h5 class="tab"><b>₦135,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/imac.webp" alt="">
             <h5 class="tab"><b>Imac</b></h5>
-            <h5 class="tab"><b>#200,000</b></h5>
+            <h5 class="tab"><b>₦200,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/photographer-gb9183c5c5_1280.jpeg" alt="">
             <h5 class="tab"><b>Camera</b></h5>
-            <h5 class="tab"><b>#26,000</b></h5>
+            <h5 class="tab"><b>₦26,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           </div>
@@ -144,31 +156,31 @@
         <div class="mash">
             <img id="ice" src="./image/book-2795850__340.webp" alt="">
             <h5 class="tab"><b>Novels by Jens</b></h5>
-            <h5 class="tab"><b>#6,000</b></h5>
+            <h5 class="tab"><b>₦6,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/book2__340.jpeg" alt="">
             <h5 class="tab"><b>Novel by Stones</b></h5>
-            <h5 class="tab"><b>#3,500</b></h5>
+            <h5 class="tab"><b>₦3,500</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/bookcase-1845888__340.jpeg" alt="">
             <h5 class="tab"><b>Novel MySchool</b></h5>
-            <h5 class="tab"><b>#12,000</b></h5>
+            <h5 class="tab"><b>₦12,000</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/comics-1239698__340.jpeg" alt="">
             <h5 class="tab"><b>Comics For Children</b></h5>
-            <h5 class="tab"><b>#2,400</b></h5>
+            <h5 class="tab"><b>₦2,400</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
           <div class="mash">
             <img id="ice" src="./image/reading-4020015__340.jpeg" alt="">
             <h5 class="tab"><b>Book Of Life</b></h5>
-            <h5 class="tab"><b>#4,500</b></h5>
+            <h5 class="tab"><b>₦4,500</b></h5>
             <button class="btn100">ADD CART</button>
           </div>
      </div>
@@ -178,10 +190,25 @@
       <div class="flex justify-center">
         <input class="border border-1-solid-black h-8" type="text" placeholder="Enter your name"> <button class="border border-1-solid-black-10 h-8 text-red-500">Subscribe</button>
     </div>
-     </div>
-    
+  </div>
 
 
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="product.html">2</a></li>
+    <li class="page-item"><a class="page-link" href="payment.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="contact.html">4</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
 
 
 
